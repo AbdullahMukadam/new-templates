@@ -1,0 +1,186 @@
+{
+  "name": "Flux Auth - SaaS Landing Page",
+  "description": "Modern dark-themed SaaS product landing page with animated gradients and code preview",
+  "category": "saas",
+  "previewImage": "preview.png",
+  "formConfig": {
+    "steps": [
+      {
+        "id": 1,
+        "title": "Product Information",
+        "fields": [
+          {
+            "name": "productName",
+            "label": "Product Name",
+            "type": "text",
+            "placeholder": "e.g., Flux Auth",
+            "required": true,
+            "defaultValue": "Flux Auth"
+          },
+          {
+            "name": "tagline",
+            "label": "Tagline",
+            "type": "text",
+            "placeholder": "e.g., Next Gen Authentication",
+            "required": true,
+            "defaultValue": "Next Gen Authentication"
+          },
+          {
+            "name": "companyName",
+            "label": "Company Name",
+            "type": "text",
+            "placeholder": "e.g., Flux Labs Inc.",
+            "required": true,
+            "defaultValue": "Flux Labs Inc."
+          },
+          {
+            "name": "packageName",
+            "label": "Package Name (NPM)",
+            "type": "text",
+            "placeholder": "e.g., @flux/auth",
+            "required": false,
+            "defaultValue": "@flux/auth"
+          },
+          {
+            "name": "configFileName",
+            "label": "Config File Name",
+            "type": "text",
+            "placeholder": "e.g., flux.config.ts",
+            "required": false,
+            "defaultValue": "flux.config.ts"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Hero Section",
+        "fields": [
+          {
+            "name": "badgeText",
+            "label": "Badge Text",
+            "type": "text",
+            "placeholder": "e.g., v2.0 is now live",
+            "required": false,
+            "defaultValue": "v2.0 is now live"
+          },
+          {
+            "name": "heroTitle",
+            "label": "Hero Title",
+            "type": "text",
+            "placeholder": "e.g., Auth built for",
+            "required": true,
+            "defaultValue": "Auth built for"
+          },
+          {
+            "name": "heroSubtitle",
+            "label": "Hero Subtitle",
+            "type": "text",
+            "placeholder": "e.g., perfectionists.",
+            "required": true,
+            "defaultValue": "perfectionists."
+          },
+          {
+            "name": "description",
+            "label": "Product Description",
+            "type": "textarea",
+            "placeholder": "Describe your product in 1-2 sentences",
+            "required": true,
+            "defaultValue": "The most comprehensive, type-safe authentication framework. Drop it into your TypeScript project and forget about auth headers forever."
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Features (1-3)",
+        "fields": [
+          {
+            "name": "feature1Title",
+            "label": "Feature 1 - Title",
+            "type": "text",
+            "placeholder": "e.g., Framework Agnostic",
+            "required": true,
+            "defaultValue": "Framework Agnostic"
+          },
+          {
+            "name": "feature1Description",
+            "label": "Feature 1 - Description",
+            "type": "textarea",
+            "placeholder": "Describe this feature",
+            "required": true,
+            "defaultValue": "First-class support for Next.js, SvelteKit, Remix, Astro, and SolidStart."
+          },
+          {
+            "name": "feature2Title",
+            "label": "Feature 2 - Title",
+            "type": "text",
+            "placeholder": "e.g., Type-Safe Sessions",
+            "required": true,
+            "defaultValue": "Type-Safe Sessions"
+          },
+          {
+            "name": "feature2Description",
+            "label": "Feature 2 - Description",
+            "type": "textarea",
+            "placeholder": "Describe this feature",
+            "required": true,
+            "defaultValue": "End-to-end type safety for your user sessions and database schema."
+          },
+          {
+            "name": "feature3Title",
+            "label": "Feature 3 - Title",
+            "type": "text",
+            "placeholder": "e.g., Organization Support",
+            "required": true,
+            "defaultValue": "Organization Support"
+          },
+          {
+            "name": "feature3Description",
+            "label": "Feature 3 - Description",
+            "type": "textarea",
+            "placeholder": "Describe this feature",
+            "required": true,
+            "defaultValue": "Built-in multi-tenancy. Create teams, invite members, and manage roles instantly."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Features (4-5)",
+        "fields": [
+          {
+            "name": "feature4Title",
+            "label": "Feature 4 - Title",
+            "type": "text",
+            "placeholder": "e.g., 2FA & Passkeys",
+            "required": true,
+            "defaultValue": "2FA & Passkeys"
+          },
+          {
+            "name": "feature4Description",
+            "label": "Feature 4 - Description",
+            "type": "textarea",
+            "placeholder": "Describe this feature",
+            "required": true,
+            "defaultValue": "Modern security defaults. Passkey support out of the box."
+          },
+          {
+            "name": "feature5Title",
+            "label": "Feature 5 - Title",
+            "type": "text",
+            "placeholder": "e.g., Bring your own Database",
+            "required": true,
+            "defaultValue": "Bring your own Database"
+          },
+          {
+            "name": "feature5Description",
+            "label": "Feature 5 - Description",
+            "type": "textarea",
+            "placeholder": "Describe this feature",
+            "required": true,
+            "defaultValue": "We support PostgreSQL, MySQL, SQLite and more. Connect via Drizzle, Prisma, or plain SQL."
+          }
+        ]
+      }
+    ]
+  }
+}
