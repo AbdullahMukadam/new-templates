@@ -1,0 +1,369 @@
+{
+  "id": "simple-portfolio-1",
+  "name": "Simple Portfolio - Developer Portfolio",
+  "description": "Clean and bold developer portfolio with red accent colors, modern typography, and responsive design",
+  "category": "portfolio",
+  "type": "html",
+  "formConfig": {
+    "steps": [
+      {
+        "id": 1,
+        "title": "Basic Information",
+        "fields": [
+          {
+            "name": "pageTitle",
+            "label": "Page Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Portfolio",
+            "default": "Portfolio"
+          },
+          {
+            "name": "logoUrl",
+            "label": "Logo Image URL",
+            "type": "text",
+            "required": true,
+            "placeholder": "https://example.com/logo.jpg",
+            "default": "https://i.postimg.cc/YSwYbyDw/logo.jpg"
+          },
+          {
+            "name": "faviconUrl",
+            "label": "Favicon Image URL",
+            "type": "text",
+            "required": true,
+            "placeholder": "https://example.com/favicon.png",
+            "default": "https://i.postimg.cc/5NpKPSpX/photo.png"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Hero Section",
+        "fields": [
+          {
+            "name": "heroTitle",
+            "label": "Hero Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Portfolio",
+            "default": "Portfolio"
+          },
+          {
+            "name": "role1",
+            "label": "Role 1",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Web developer",
+            "default": "Web developer"
+          },
+          {
+            "name": "role2",
+            "label": "Role 2",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Design Engineer",
+            "default": "Design Engineer"
+          },
+          {
+            "name": "coffeeImageUrl",
+            "label": "Decorative Image URL",
+            "type": "text",
+            "required": false,
+            "placeholder": "https://example.com/coffee.jpg",
+            "default": "https://i.postimg.cc/JzXj3Wqq/cofee.jpg"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "Bio Section",
+        "fields": [
+          {
+            "name": "bioText",
+            "label": "Bio Text",
+            "type": "textarea",
+            "rows": 3,
+            "required": true,
+            "placeholder": "Write your bio",
+            "default": "I'm Abdullah Mukadam. A 21-year-old engineer from India who thrives in the chaos of fast-paced startups."
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "About Me",
+        "fields": [
+          {
+            "name": "profileImageUrl",
+            "label": "Profile Image URL",
+            "type": "text",
+            "required": true,
+            "placeholder": "https://example.com/photo.png",
+            "default": "https://i.postimg.cc/5NpKPSpX/photo.png"
+          },
+          {
+            "name": "fullName",
+            "label": "Full Name",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Abdullah Mukadam",
+            "default": "Abdullah Mukadam"
+          },
+          {
+            "name": "email",
+            "label": "Email Address",
+            "type": "email",
+            "required": true,
+            "placeholder": "e.g., hello@mail.com",
+            "default": "abdullahmukadam21@gmail.com"
+          },
+          {
+            "name": "phoneNumber",
+            "label": "Phone Number",
+            "type": "text",
+            "required": false,
+            "placeholder": "e.g., +1 234 567 8900",
+            "default": "Your Phone No"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "title": "Experience",
+        "fields": [
+          {
+            "name": "experience1Year",
+            "label": "Experience 1 - Year",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 2025",
+            "default": "2025"
+          },
+          {
+            "name": "experience1Title",
+            "label": "Experience 1 - Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Frontend Developer",
+            "default": "Frontend Developer"
+          },
+          {
+            "name": "experience1Description",
+            "label": "Experience 1 - Description",
+            "type": "textarea",
+            "rows": 2,
+            "required": true,
+            "placeholder": "What you did in this role",
+            "default": "Your Details, Example: What you did in company"
+          },
+          {
+            "name": "experience2Year",
+            "label": "Experience 2 - Year",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 2024",
+            "default": "2024"
+          },
+          {
+            "name": "experience2Title",
+            "label": "Experience 2 - Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Full stack Developer",
+            "default": "Full stack Developer"
+          },
+          {
+            "name": "experience2Description",
+            "label": "Experience 2 - Description",
+            "type": "textarea",
+            "rows": 2,
+            "required": true,
+            "placeholder": "What you did in this role",
+            "default": "Your Details, Example: What you did in company"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Education",
+        "fields": [
+          {
+            "name": "education1Institution",
+            "label": "Education 1 - Institution",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., MIT",
+            "default": "College or School Name"
+          },
+          {
+            "name": "education1Qualification",
+            "label": "Education 1 - Qualification",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 10th, 12th",
+            "default": "Qualification, ex: 10th, 12th"
+          },
+          {
+            "name": "education2Institution",
+            "label": "Education 2 - Institution",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Stanford University",
+            "default": "College or School Name"
+          },
+          {
+            "name": "education2Qualification",
+            "label": "Education 2 - Qualification",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., BE, BCOM, etc.",
+            "default": "Qualification, ex: BE, BCOM, etc."
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Skills",
+        "fields": [
+          {
+            "name": "skill1",
+            "label": "Skill 1",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Reactjs",
+            "default": "Reactjs"
+          },
+          {
+            "name": "skill2",
+            "label": "Skill 2",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Nextjs",
+            "default": "Nextjs"
+          },
+          {
+            "name": "skill3",
+            "label": "Skill 3",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Team Work",
+            "default": "Example: Team Work"
+          },
+          {
+            "name": "skill4",
+            "label": "Skill 4",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Leadership",
+            "default": "Example: Leadership"
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "title": "Projects",
+        "fields": [
+          {
+            "name": "project1Title",
+            "label": "Project 1 - Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Todo App",
+            "default": "Example : Todo App"
+          },
+          {
+            "name": "project1Year",
+            "label": "Project 1 - Year",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 2024",
+            "default": "Example : 2024"
+          },
+          {
+            "name": "project1GithubUrl",
+            "label": "Project 1 - GitHub URL",
+            "type": "text",
+            "required": false,
+            "placeholder": "https://github.com/username/project",
+            "default": ""
+          },
+          {
+            "name": "project1Description",
+            "label": "Project 1 - Description",
+            "type": "textarea",
+            "rows": 2,
+            "required": true,
+            "placeholder": "Describe project features",
+            "default": "Example : Features of your Project"
+          },
+          {
+            "name": "project2Title",
+            "label": "Project 2 - Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Todo App",
+            "default": "Example : Todo App"
+          },
+          {
+            "name": "project2Year",
+            "label": "Project 2 - Year",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 2024",
+            "default": "Example : 2024"
+          },
+          {
+            "name": "project2GithubUrl",
+            "label": "Project 2 - GitHub URL",
+            "type": "text",
+            "required": false,
+            "placeholder": "https://github.com/username/project",
+            "default": ""
+          },
+          {
+            "name": "project2Description",
+            "label": "Project 2 - Description",
+            "type": "textarea",
+            "rows": 2,
+            "required": true,
+            "placeholder": "Describe project features",
+            "default": "Example : Features of your Project"
+          },
+          {
+            "name": "project3Title",
+            "label": "Project 3 - Title",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., Todo App",
+            "default": "Example : Todo App"
+          },
+          {
+            "name": "project3Year",
+            "label": "Project 3 - Year",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 2024",
+            "default": "Example : 2024"
+          },
+          {
+            "name": "project3GithubUrl",
+            "label": "Project 3 - GitHub URL",
+            "type": "text",
+            "required": false,
+            "placeholder": "https://github.com/username/project",
+            "default": ""
+          },
+          {
+            "name": "project3Description",
+            "label": "Project 3 - Description",
+            "type": "textarea",
+            "rows": 2,
+            "required": true,
+            "placeholder": "Describe project features",
+            "default": "Example : Features of your Project"
+          }
+        ]
+      }
+    ]
+  }
+}
