@@ -15,7 +15,7 @@
             "type": "text",
             "placeholder": "e.g., FITNESS RHINOS.",
             "required": true,
-            "defaultValue": "FITNESS RHINOS."
+            "default": "FITNESS RHINOS."
           },
           {
             "name": "gymNameShort",
@@ -23,7 +23,7 @@
             "type": "text",
             "placeholder": "e.g., RHINOS.",
             "required": true,
-            "defaultValue": "RHINOS."
+            "default": "RHINOS."
           },
           {
             "name": "tagline",
@@ -31,7 +31,7 @@
             "type": "text",
             "placeholder": "e.g., Technical Fitness",
             "required": true,
-            "defaultValue": "Technical Fitness"
+            "default": "Technical Fitness"
           },
           {
             "name": "footerTagline",
@@ -39,7 +39,7 @@
             "type": "textarea",
             "placeholder": "e.g., Building better bodies through science...",
             "required": false,
-            "defaultValue": "Building better bodies through science and discipline since 2010."
+            "default": "Building better bodies through science and discipline since 2010."
           }
         ]
       },
@@ -53,7 +53,7 @@
             "type": "text",
             "placeholder": "e.g., Own Your Fitness",
             "required": false,
-            "defaultValue": "Own Your Fitness"
+            "default": "Own Your Fitness"
           },
           {
             "name": "heroLine1",
@@ -61,7 +61,7 @@
             "type": "text",
             "placeholder": "e.g., IMPROVE YOUR",
             "required": true,
-            "defaultValue": "IMPROVE YOUR"
+            "default": "IMPROVE YOUR"
           },
           {
             "name": "heroLine2",
@@ -69,7 +69,7 @@
             "type": "text",
             "placeholder": "e.g., FITNESS LEVEL",
             "required": true,
-            "defaultValue": "FITNESS LEVEL"
+            "default": "FITNESS LEVEL"
           },
           {
             "name": "heroLine3",
@@ -77,7 +77,7 @@
             "type": "text",
             "placeholder": "e.g., FOR THE BETTER",
             "required": true,
-            "defaultValue": "FOR THE BETTER"
+            "default": "FOR THE BETTER"
           },
           {
             "name": "description",
@@ -85,7 +85,7 @@
             "type": "textarea",
             "placeholder": "Describe your gym in 1-2 sentences",
             "required": true,
-            "defaultValue": "Join the most comprehensive fitness framework. Push your limits and achieve your body goals with our expert guidance."
+            "default": "Join the most comprehensive fitness framework. Push your limits and achieve your body goals with our expert guidance."
           },
           {
             "name": "ctaButtonText",
@@ -93,7 +93,7 @@
             "type": "text",
             "placeholder": "e.g., START TRAINING",
             "required": false,
-            "defaultValue": "START TRAINING"
+            "default": "START TRAINING"
           }
         ]
       },
@@ -107,7 +107,7 @@
             "type": "text",
             "placeholder": "e.g., CLASS",
             "required": true,
-            "defaultValue": "CLASS"
+            "default": "CLASS"
           },
           {
             "name": "facility1Description",
@@ -115,7 +115,7 @@
             "type": "textarea",
             "placeholder": "Describe this facility",
             "required": true,
-            "defaultValue": "Expert-led sessions ranging from HIIT to Yoga, designed to push your limits in a group setting."
+            "default": "Expert-led sessions ranging from HIIT to Yoga, designed to push your limits in a group setting."
           },
           {
             "name": "facility2Title",
@@ -123,7 +123,7 @@
             "type": "text",
             "placeholder": "e.g., CLUB",
             "required": true,
-            "defaultValue": "CLUB"
+            "default": "CLUB"
           },
           {
             "name": "facility2Description",
@@ -131,7 +131,7 @@
             "type": "textarea",
             "placeholder": "Describe this facility",
             "required": true,
-            "defaultValue": "Exclusive member lounge, recovery spa, and nutrition bar. A community, not just a gym."
+            "default": "Exclusive member lounge, recovery spa, and nutrition bar. A community, not just a gym."
           },
           {
             "name": "facility3Title",
@@ -139,7 +139,7 @@
             "type": "text",
             "placeholder": "e.g., TIMETABLE",
             "required": true,
-            "defaultValue": "TIMETABLE"
+            "default": "TIMETABLE"
           },
           {
             "name": "facility3Description",
@@ -147,7 +147,7 @@
             "type": "textarea",
             "placeholder": "Describe this facility",
             "required": true,
-            "defaultValue": "Real-time scheduling. Book your spot in seconds via our dedicated member app."
+            "default": "Real-time scheduling. Book your spot in seconds via our dedicated member app."
           }
         ]
       },
@@ -161,7 +161,7 @@
             "type": "text",
             "placeholder": "e.g., Flexible plans for every fitness journey",
             "required": false,
-            "defaultValue": "Flexible plans for every fitness journey. No hidden fees."
+            "default": "Flexible plans for every fitness journey. No hidden fees."
           },
           {
             "name": "plan1Name",
@@ -169,7 +169,7 @@
             "type": "text",
             "placeholder": "e.g., STARTER",
             "required": true,
-            "defaultValue": "STARTER"
+            "default": "STARTER"
           },
           {
             "name": "plan1Price",
@@ -177,7 +177,7 @@
             "type": "text",
             "placeholder": "e.g., $29",
             "required": true,
-            "defaultValue": "$29"
+            "default": "$29"
           },
           {
             "name": "plan2Name",
@@ -185,7 +185,7 @@
             "type": "text",
             "placeholder": "e.g., BEGINNER",
             "required": true,
-            "defaultValue": "BEGINNER"
+            "default": "BEGINNER"
           },
           {
             "name": "plan2Price",
@@ -193,7 +193,7 @@
             "type": "text",
             "placeholder": "e.g., $49",
             "required": true,
-            "defaultValue": "$49"
+            "default": "$49"
           },
           {
             "name": "plan3Name",
@@ -201,7 +201,7 @@
             "type": "text",
             "placeholder": "e.g., PRO ATHLETE",
             "required": true,
-            "defaultValue": "PRO ATHLETE"
+            "default": "PRO ATHLETE"
           },
           {
             "name": "plan3Price",
@@ -209,7 +209,7 @@
             "type": "text",
             "placeholder": "e.g., $79",
             "required": true,
-            "defaultValue": "$79"
+            "default": "$79"
           }
         ]
       }

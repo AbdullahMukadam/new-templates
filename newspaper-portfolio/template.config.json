@@ -15,7 +15,7 @@
             "type": "text",
             "placeholder": "e.g., The Dev Chronicles",
             "required": true,
-            "defaultValue": "The Dev Chronicles"
+            "default": "The Dev Chronicles"
           },
           {
             "name": "subtitle",
@@ -23,7 +23,7 @@
             "type": "text",
             "placeholder": "e.g., Portfolio Edition",
             "required": true,
-            "defaultValue": "Portfolio Edition"
+            "default": "Portfolio Edition"
           },
           {
             "name": "motto1",
@@ -31,7 +31,7 @@
             "type": "text",
             "placeholder": "e.g., Pixel Perfect",
             "required": false,
-            "defaultValue": "Pixel Perfect"
+            "default": "Pixel Perfect"
           },
           {
             "name": "motto2",
@@ -39,7 +39,7 @@
             "type": "text",
             "placeholder": "e.g., Code with Character",
             "required": false,
-            "defaultValue": "Code with Character"
+            "default": "Code with Character"
           },
           {
             "name": "motto3",
@@ -47,7 +47,7 @@
             "type": "text",
             "placeholder": "e.g., Shipping Daily",
             "required": false,
-            "defaultValue": "Shipping Daily"
+            "default": "Shipping Daily"
           }
         ]
       },
@@ -61,7 +61,7 @@
             "type": "text",
             "placeholder": "e.g., ENGINEER REDEFINES",
             "required": true,
-            "defaultValue": "ENGINEER REDEFINES"
+            "default": "ENGINEER REDEFINES"
           },
           {
             "name": "headlineItalic",
@@ -69,7 +69,7 @@
             "type": "text",
             "placeholder": "e.g., DIGITAL EXPERIENCES",
             "required": true,
-            "defaultValue": "DIGITAL EXPERIENCES"
+            "default": "DIGITAL EXPERIENCES"
           },
           {
             "name": "location",
@@ -77,7 +77,7 @@
             "type": "text",
             "placeholder": "e.g., San Francisco",
             "required": false,
-            "defaultValue": "San Francisco"
+            "default": "San Francisco"
           },
           {
             "name": "introText",
@@ -85,7 +85,7 @@
             "type": "textarea",
             "placeholder": "Write your introduction story here",
             "required": true,
-            "defaultValue": "The tech world was abuzz this morning as a new portfolio dropped, featuring a stunning blend of classical aesthetics and modern performance. Critics are calling it \"a breath of fresh air\" in a sea of sterile minimalist designs. The developer behind this project claims to bridge the gap between design and engineering."
+            "default": "The tech world was abuzz this morning as a new portfolio dropped, featuring a stunning blend of classical aesthetics and modern performance. Critics are calling it \"a breath of fresh air\" in a sea of sterile minimalist designs. The developer behind this project claims to bridge the gap between design and engineering."
           },
           {
             "name": "quote",
@@ -93,7 +93,7 @@
             "type": "textarea",
             "placeholder": "A quote about your work philosophy",
             "required": true,
-            "defaultValue": "\"I simply focus on clean code and user experience,\" the developer stated in an exclusive interview. Specializing in React, Next.js, and creative CSS, they are currently open to new opportunities."
+            "default": "\"I simply focus on clean code and user experience,\" the developer stated in an exclusive interview. Specializing in React, Next.js, and creative CSS, they are currently open to new opportunities."
           }
         ]
       },
@@ -107,7 +107,7 @@
             "type": "text",
             "placeholder": "e.g., E-Commerce Dashboard",
             "required": true,
-            "defaultValue": "E-Commerce Dashboard"
+            "default": "E-Commerce Dashboard"
           },
           {
             "name": "project1Description",
@@ -115,7 +115,7 @@
             "type": "textarea",
             "placeholder": "Describe this project",
             "required": true,
-            "defaultValue": "A comprehensive analytics tool built with Next.js and Tremor. Features real-time data visualization and inventory tracking."
+            "default": "A comprehensive analytics tool built with Next.js and Tremor. Features real-time data visualization and inventory tracking."
           },
           {
             "name": "project2Title",
@@ -123,7 +123,7 @@
             "type": "text",
             "placeholder": "e.g., Social Graph API",
             "required": true,
-            "defaultValue": "Social Graph API"
+            "default": "Social Graph API"
           },
           {
             "name": "project2Description",
@@ -131,7 +131,7 @@
             "type": "textarea",
             "placeholder": "Describe this project",
             "required": true,
-            "defaultValue": "High-performance backend service for mapping user relationships. Built with Node.js and Neo4j for scale."
+            "default": "High-performance backend service for mapping user relationships. Built with Node.js and Neo4j for scale."
           }
         ]
       },
@@ -145,7 +145,7 @@
             "type": "textarea",
             "placeholder": "Your coding philosophy",
             "required": false,
-            "defaultValue": "In a world of frameworks, be the vanilla JS. Strong, reliable, and foundational."
+            "default": "In a world of frameworks, be the vanilla JS. Strong, reliable, and foundational."
           },
           {
             "name": "phoneNumber",
@@ -153,7 +153,7 @@
             "type": "text",
             "placeholder": "e.g., 555-0199",
             "required": false,
-            "defaultValue": "555-0199"
+            "default": "555-0199"
           },
           {
             "name": "githubHandle",
@@ -161,7 +161,7 @@
             "type": "text",
             "placeholder": "e.g., @username",
             "required": true,
-            "defaultValue": "@username"
+            "default": "@username"
           },
           {
             "name": "twitterHandle",
@@ -169,7 +169,7 @@
             "type": "text",
             "placeholder": "e.g., @handle",
             "required": false,
-            "defaultValue": "@handle"
+            "default": "@handle"
           },
           {
             "name": "linkedinHandle",
@@ -177,7 +177,7 @@
             "type": "text",
             "placeholder": "e.g., /in/profile",
             "required": false,
-            "defaultValue": "/in/profile"
+            "default": "/in/profile"
           },
           {
             "name": "email",
@@ -185,7 +185,7 @@
             "type": "email",
             "placeholder": "e.g., hello@mail.com",
             "required": true,
-            "defaultValue": "hello@mail.com"
+            "default": "hello@mail.com"
           }
         ]
       }

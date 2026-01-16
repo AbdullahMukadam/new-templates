@@ -15,7 +15,7 @@
             "type": "text",
             "placeholder": "e.g., Flux Auth",
             "required": true,
-            "defaultValue": "Flux Auth"
+            "default": "Flux Auth"
           },
           {
             "name": "tagline",
@@ -23,7 +23,7 @@
             "type": "text",
             "placeholder": "e.g., Next Gen Authentication",
             "required": true,
-            "defaultValue": "Next Gen Authentication"
+            "default": "Next Gen Authentication"
           },
           {
             "name": "companyName",
@@ -31,7 +31,7 @@
             "type": "text",
             "placeholder": "e.g., Flux Labs Inc.",
             "required": true,
-            "defaultValue": "Flux Labs Inc."
+            "default": "Flux Labs Inc."
           },
           {
             "name": "packageName",
@@ -39,7 +39,7 @@
             "type": "text",
             "placeholder": "e.g., @flux/auth",
             "required": false,
-            "defaultValue": "@flux/auth"
+            "default": "@flux/auth"
           },
           {
             "name": "configFileName",
@@ -47,7 +47,7 @@
             "type": "text",
             "placeholder": "e.g., flux.config.ts",
             "required": false,
-            "defaultValue": "flux.config.ts"
+            "default": "flux.config.ts"
           }
         ]
       },
@@ -61,7 +61,7 @@
             "type": "text",
             "placeholder": "e.g., v2.0 is now live",
             "required": false,
-            "defaultValue": "v2.0 is now live"
+            "default": "v2.0 is now live"
           },
           {
             "name": "heroTitle",
@@ -69,7 +69,7 @@
             "type": "text",
             "placeholder": "e.g., Auth built for",
             "required": true,
-            "defaultValue": "Auth built for"
+            "default": "Auth built for"
           },
           {
             "name": "heroSubtitle",
@@ -77,7 +77,7 @@
             "type": "text",
             "placeholder": "e.g., perfectionists.",
             "required": true,
-            "defaultValue": "perfectionists."
+            "default": "perfectionists."
           },
           {
             "name": "description",
@@ -85,7 +85,7 @@
             "type": "textarea",
             "placeholder": "Describe your product in 1-2 sentences",
             "required": true,
-            "defaultValue": "The most comprehensive, type-safe authentication framework. Drop it into your TypeScript project and forget about auth headers forever."
+            "default": "The most comprehensive, type-safe authentication framework. Drop it into your TypeScript project and forget about auth headers forever."
           }
         ]
       },
@@ -99,7 +99,7 @@
             "type": "text",
             "placeholder": "e.g., Framework Agnostic",
             "required": true,
-            "defaultValue": "Framework Agnostic"
+            "default": "Framework Agnostic"
           },
           {
             "name": "feature1Description",
@@ -107,7 +107,7 @@
             "type": "textarea",
             "placeholder": "Describe this feature",
             "required": true,
-            "defaultValue": "First-class support for Next.js, SvelteKit, Remix, Astro, and SolidStart."
+            "default": "First-class support for Next.js, SvelteKit, Remix, Astro, and SolidStart."
           },
           {
             "name": "feature2Title",
@@ -115,7 +115,7 @@
             "type": "text",
             "placeholder": "e.g., Type-Safe Sessions",
             "required": true,
-            "defaultValue": "Type-Safe Sessions"
+            "default": "Type-Safe Sessions"
           },
           {
             "name": "feature2Description",
@@ -123,7 +123,7 @@
             "type": "textarea",
             "placeholder": "Describe this feature",
             "required": true,
-            "defaultValue": "End-to-end type safety for your user sessions and database schema."
+            "default": "End-to-end type safety for your user sessions and database schema."
           },
           {
             "name": "feature3Title",
@@ -131,7 +131,7 @@
             "type": "text",
             "placeholder": "e.g., Organization Support",
             "required": true,
-            "defaultValue": "Organization Support"
+            "default": "Organization Support"
           },
           {
             "name": "feature3Description",
@@ -139,7 +139,7 @@
             "type": "textarea",
             "placeholder": "Describe this feature",
             "required": true,
-            "defaultValue": "Built-in multi-tenancy. Create teams, invite members, and manage roles instantly."
+            "default": "Built-in multi-tenancy. Create teams, invite members, and manage roles instantly."
           }
         ]
       },
@@ -153,7 +153,7 @@
             "type": "text",
             "placeholder": "e.g., 2FA & Passkeys",
             "required": true,
-            "defaultValue": "2FA & Passkeys"
+            "default": "2FA & Passkeys"
           },
           {
             "name": "feature4Description",
@@ -161,7 +161,7 @@
             "type": "textarea",
             "placeholder": "Describe this feature",
             "required": true,
-            "defaultValue": "Modern security defaults. Passkey support out of the box."
+            "default": "Modern security defaults. Passkey support out of the box."
           },
           {
             "name": "feature5Title",
@@ -169,7 +169,7 @@
             "type": "text",
             "placeholder": "e.g., Bring your own Database",
             "required": true,
-            "defaultValue": "Bring your own Database"
+            "default": "Bring your own Database"
           },
           {
             "name": "feature5Description",
@@ -177,7 +177,7 @@
             "type": "textarea",
             "placeholder": "Describe this feature",
             "required": true,
-            "defaultValue": "We support PostgreSQL, MySQL, SQLite and more. Connect via Drizzle, Prisma, or plain SQL."
+            "default": "We support PostgreSQL, MySQL, SQLite and more. Connect via Drizzle, Prisma, or plain SQL."
           }
         ]
       }
