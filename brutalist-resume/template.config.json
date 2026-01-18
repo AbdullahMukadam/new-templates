@@ -1,0 +1,249 @@
+{
+  "id": "brutalist-resume-1",
+  "name": "Brutalist Editorial Resume",
+  "description": "High-end, grid-heavy editorial layout resembling a fashion magazine with GSAP animations",
+  "category": "portfolio",
+  "type": "html",
+  "formConfig": {
+    "steps": [
+      {
+        "id": 1,
+        "title": "Basic Details",
+        "fields": [
+          {
+            "name": "fullName",
+            "label": "Full Name",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., John Doe",
+            "default": "John Doe"
+          },
+          {
+            "name": "websiteUrl",
+            "label": "Website URL",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., www.example.com",
+            "default": "www.example.com"
+          },
+           {
+            "name": "portfolioYear",
+            "label": "Portfolio Year",
+            "type": "text",
+            "required": true,
+            "placeholder": "e.g., 2026",
+            "default": "2026"
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "title": "Hero Section",
+        "fields": [
+           {
+            "name": "presentationTitle",
+            "label": "Vertical Presentation Title",
+            "type": "text",
+            "required": false,
+            "placeholder": "e.g., Presentation Title Here",
+            "default": "PRESENTATION TITLE HERE"
+          },
+          {
+            "name": "heroImageUrl",
+            "label": "Hero Image URL",
+            "type": "text",
+            "required": true,
+            "placeholder": "https://example.com/image.jpg",
+            "default": "https://images.unsplash.com/photo-1483985988355-763728e1935b?q=80&w=2000&auto=format&fit=crop"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "title": "About Me",
+        "fields": [
+          {
+            "name": "aboutDescription",
+            "label": "About Description",
+            "type": "textarea",
+            "rows": 3,
+            "required": true,
+            "placeholder": "Brief introduction...",
+            "default": "I am a multidisciplinary creative developer obsessed with strict grid systems, typography, and performance. I build digital experiences that feel tangible, using code as a raw material."
+          },
+          {
+             "name": "birthYear",
+             "label": "Birth Year",
+             "type": "text",
+             "required": true,
+             "default": "1995"
+          },
+           {
+             "name": "location",
+             "label": "Location",
+             "type": "text",
+             "required": true,
+             "default": "New York"
+          },
+          {
+            "name": "aboutImageUrl",
+            "label": "Profile Image URL",
+            "type": "text",
+            "required": true,
+            "default": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?q=80&w=1000&auto=format&fit=crop"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "title": "Experience",
+        "fields": [
+          {
+            "name": "exp1Period",
+            "label": "Experience 1 - Period",
+            "type": "text",
+            "default": "Jan - Feb 2023"
+          },
+          {
+            "name": "exp1Title",
+            "label": "Experience 1 - Title",
+            "type": "text",
+            "default": "Senior Dev"
+          },
+           {
+            "name": "exp1Desc",
+            "label": "Experience 1 - Description",
+            "type": "textarea",
+            "default": "Led frontend architecture for a major fintech rebranding. Implemented design systems using WebGL and React."
+          },
+           {
+            "name": "exp2Period",
+            "label": "Experience 2 - Period",
+            "type": "text",
+            "default": "Mar - Aug 2022"
+          },
+          {
+            "name": "exp2Title",
+            "label": "Experience 2 - Title",
+            "type": "text",
+            "default": "Creative Tech"
+          },
+           {
+            "name": "exp2Desc",
+            "label": "Experience 2 - Description",
+            "type": "textarea",
+            "default": "Developed interactive installations for fashion week shows in Paris and Milan using TouchDesigner."
+          },
+           {
+            "name": "exp3Period",
+            "label": "Experience 3 - Period",
+            "type": "text",
+            "default": "2020 - 2022"
+          },
+          {
+            "name": "exp3Title",
+            "label": "Experience 3 - Title",
+            "type": "text",
+            "default": "Frontend"
+          },
+           {
+            "name": "exp3Desc",
+            "label": "Experience 3 - Description",
+            "type": "textarea",
+            "default": "Full stack development for Agency X. Handled client relations and rapid prototyping cycles."
+          }
+        ]
+      },
+       {
+        "id": 5,
+        "title": "Featured Job",
+        "fields": [
+          {
+            "name": "jobCompany",
+            "label": "Company Name",
+            "type": "text",
+            "default": "Google Inc."
+          },
+          {
+            "name": "jobPeriod",
+            "label": "Job Period",
+            "type": "text",
+            "default": "2022-2023"
+          },
+           {
+            "name": "jobTitle",
+            "label": "Job Title",
+            "type": "text",
+            "default": "Senior Design Engineer"
+          },
+          {
+             "name": "jobImageUrl",
+             "label": "Featured Job Image URL",
+             "type": "text",
+             "default": "https://images.unsplash.com/photo-1469334031218-e382a71b716b?q=80&w=1000&auto=format&fit=crop"
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "title": "Education",
+        "fields": [
+          {
+             "name": "edu1Title",
+             "label": "Education 1 Title",
+             "type": "text",
+             "default": "Master Computer Science"
+          },
+          {
+             "name": "edu1Period",
+             "label": "Education 1 Period",
+             "type": "text",
+             "default": "2018-2020"
+          },
+           {
+             "name": "edu1School",
+             "label": "Education 1 School",
+             "type": "text",
+             "default": "MIT University"
+          },
+           {
+             "name": "edu2Title",
+             "label": "Education 2 Title",
+             "type": "text",
+             "default": "BFA Graphic Design"
+          },
+          {
+             "name": "edu2Period",
+             "label": "Education 2 Period",
+             "type": "text",
+             "default": "2014-2018"
+          },
+           {
+             "name": "edu2School",
+             "label": "Education 2 School",
+             "type": "text",
+             "default": "Rhode Island School of Design"
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "title": "Contact",
+        "fields": [
+          {
+             "name": "contactEmail",
+             "label": "Contact Email",
+             "type": "text",
+             "default": "email@example.com"
+          },
+           {
+             "name": "contactImageUrl",
+             "label": "Contact Section Image URL",
+             "type": "text",
+             "default": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1000&auto=format&fit=crop"
+          }
+        ]
+      }
+    ]
+  }
+}
